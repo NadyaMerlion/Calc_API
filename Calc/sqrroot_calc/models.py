@@ -34,6 +34,7 @@ def root1(self):
     c = self.c
     discrement = (b**2) - (4 * a*c)
     root1 = (-b-cmath.sqrt(discrement))/(2 * a)
+    root1.save()
     return root1
 
 @property
@@ -43,12 +44,13 @@ def root2(self):
     c = self.c
     discrement = (b**2) - (4 * a*c)
     root2 = (-b + cmath.sqrt(discrement))/(2 * a)
+    root2.save()
     return root2
 
-def save(self, *args, **kwargs):
-    self.root1 = self.root1
-    self.root2 = self.root2
-    super(Number, self).save(*args, **kwargs)
+# def save(self, *args, **kwargs):
+#     self.root1 = self.root1
+#     self.root2 = self.root2
+#     super(Number, self).save(*args, **kwargs)
 
 
 # class Result(models.Model):
