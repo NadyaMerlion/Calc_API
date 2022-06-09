@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'sqrroot_calc.SqrrootCalcConfig',
+    'sqrroot_calc.apps.SqrrootCalcConfig',
 ]
 
 MIDDLEWARE = [
