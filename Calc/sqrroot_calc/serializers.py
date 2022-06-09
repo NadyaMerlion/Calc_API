@@ -1,7 +1,7 @@
 from rest_framework import serializers
 import cmath
 
-from .models import Number
+from sqrroot_calc.models import Number
 
 
 class NumberSerializer(serializers.ModelSerializer):

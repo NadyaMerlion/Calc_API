@@ -1,9 +1,6 @@
 from django.db import models
 
 
-#import cmath
-
-
 class Number(models.Model):
     a = models.IntegerField()
     b = models.IntegerField()
