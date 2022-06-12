@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Number(models.Model):
+class SquareRoots(models.Model):
     a = models.FloatField()
     b = models.FloatField()
     c = models.FloatField()
@@ -9,4 +9,4 @@ class Number(models.Model):
     root2 = models.FloatField()
 
     def __str__(self):
-        return self.name
+        return self.task

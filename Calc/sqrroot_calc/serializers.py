@@ -1,9 +1,8 @@
 from rest_framework import serializers
+from .models import SquareRoots
 
-from .models import Number
 
-
-class NumberSerializer(serializers.ModelSerializer):
+class SquareRootsSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Number
+        model = SquareRoots
         fields = '__all__'
