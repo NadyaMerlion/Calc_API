@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class SquareRoots(models.Model):
     a = models.FloatField()
     b = models.FloatField()
